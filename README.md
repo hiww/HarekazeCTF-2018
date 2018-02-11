@@ -2,6 +2,7 @@
 
 ### What is HarekazeCTF2018?
 [HarekazeCTF2018](https:/harekaze.com/ctf.html)
+
 [CTFtime.org](https://ctftime.org/event/549)
 
 
@@ -9,6 +10,7 @@
 
 - Problem Name: Lost_data
     - Problem file: [lost_data.zip](https://github.com/hiww/HarekazeCTF-2018/lost_data.zip)
+    
 - Points 100, Genre For + Misc, Author hiww, Solves 54.
 
 ```
@@ -28,13 +30,15 @@ filesystem is answer.
 
     - Step-1.(Recover QR-code from data.zip)
         - Unzip the data.zip.
-            - 1. The first 4 bytes of each file is `89 2E 2E 2E` and even if using the file command the extension is unknown.
-            - 2. But, there are some hint in the files[1..3].
-            - 3. For example, `49 44 41 54` in hex and `IDAT` in ascii.
-            - 4. Replace the first 4 bytes to `89 50 4E 47`. 
-            - 5. The lost data was PNG.
-            - 6. Scan QR-code by QR-code-scanner(e.g. zbarimg, iOS-standard-camera and scanning by human).
-    `HarekazeCTF{Y0u_G0t_FuNNy_F1ag_?DF?_T?_is_xxxxx}`
+            - 1. The first 4 bytes of each file is `89 2E 2E 2E`.
+            - 2. Even if using the file command the extension is unknown.
+            - 3. But, there are some hint in the files[1..3].
+            - 4. For example, `49 44 41 54` in hex and `IDAT` in ascii.
+            - 5. Replace the first 4 bytes to `89 50 4E 47`. 
+            - 6. The lost data was PNG.
+            - 7. Scan QR-code by QR-code-scanner(e.g. zbarimg, iOScamera and human).
+            
+    `QR-code: HarekazeCTF{Y0u_G0t_FuNNy_F1ag_?DF?_T?_is_xxxxx}`
     
     - Step-2.(Investigate the xxxxx.zip)
         - By the way, have you ever used SD cards that can not add new files? The filesystem have some restrictions.
@@ -45,9 +49,11 @@ filesystem is answer.
             - 4. This is why that `FAT16` is correct answer of xxxxx.
 
 - Answer:
+
     `HarekazeCTF{Y0u_G0t_FuNNy_F1ag_?DF?_T?_is_FAT16}`
 
 - Addition:
+
     - You can check your filesystem using `df -T`.
 
 Reference: https://support.microsoft.com/help/436213.
