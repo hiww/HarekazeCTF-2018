@@ -9,8 +9,8 @@
 
 ---
 
-- Problem Name: Lost_data
-    - Problem file: [lost_data.zip](https://github.com/hiww/HarekazeCTF-2018/lost_data.zip)
+## Problem Name: Lost_data
+    - Problem file: [lost_data.zip](https://github.com/hiww/HarekazeCTF-2018/blob/master/lost_data.zip)
     
 - Points 100, Genre For + Misc, Author hiww, Solves 54.
 
@@ -27,7 +27,7 @@ filesystem is answer.
 ```
 
 
-- Solution(Writeup):
+## Solution(Writeup):
 
     - Step-1.(Recover QR-code from data.zip)
         - Unzip the data.zip.
