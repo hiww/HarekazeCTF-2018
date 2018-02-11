@@ -1,7 +1,8 @@
 # Here is HarekazeCTF-2018-problem that I authored.
 
 ### What is HarekazeCTF2018?
-[HarekazeCTF2018](https:/harekaze.com/ctf.html)
+
+[HarekazeCTF2018](https://harekaze.com/ctf.html)
 
 [CTFtime.org](https://ctftime.org/event/549)
 
@@ -41,10 +42,13 @@ filesystem is answer.
     `QR-code: HarekazeCTF{Y0u_G0t_FuNNy_F1ag_?DF?_T?_is_xxxxx}`
     
     - Step-2.(Investigate the xxxxx.zip)
-        - By the way, have you ever used SD cards that can not add new files? The filesystem have some restrictions.
+        - By the way, have you ever used SD cards that can not add new files? 
+        
+        - The filesystem have some restrictions.
+        
         - You can know some information by unzip the xxxxx.zip(without password).
             - 1. The contents of xxxxx.zip seems to be fatxxx(file-size is 0KB).
-            - 2. Total file number(`512 files`) of xxxxx.zip means filesystem's number of files limit.
+            - 2. Total file number(`512`) means filesystem's number of files limit.
             - 3. Total number of files = Number of files limit in root directory of FAT16.
             - 4. This is why that `FAT16` is correct answer of xxxxx.
 
