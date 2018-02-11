@@ -11,9 +11,9 @@
 
 ## Problem Name: Lost_data
 
-    - Problem file: [lost_data.zip](https://github.com/hiww/HarekazeCTF-2018/blob/master/lost_data.zip)
+- Problem file: [lost_data.zip](https://github.com/hiww/HarekazeCTF-2018/blob/master/lost_data.zip)
     
-- Points 100, Genre For + Misc, Author hiww, Solves 54.
+    - Points 100, Genre For + Misc, Author hiww, Solves 54.
 
 ```
 Description
