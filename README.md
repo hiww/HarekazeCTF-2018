@@ -58,12 +58,9 @@ filesystem is answer.
     - `HarekazeCTF{Y0u_G0t_FuNNy_F1ag_?DF?_T?_is_FAT16}`
 
 - Addition:
-
-
     - You can check your filesystem using `df -T`.
     
     - The character string of QR-code was every 16 characters. 
-
 
 
 Reference: https://support.microsoft.com/help/436213.
