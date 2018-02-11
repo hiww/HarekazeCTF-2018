@@ -60,6 +60,7 @@ filesystem is answer.
 - Addition:
 
     - You can check your filesystem using `df -T`.
+    
     - The character string of QR-code was every 16 characters. 
 
 Reference: https://support.microsoft.com/help/436213.
