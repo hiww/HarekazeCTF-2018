@@ -61,6 +61,6 @@ filesystem is answer.
 
     - You can check your filesystem using `df -T`.
 
-Reference: https://support.microsoft.com/help/436213.
+Reference: https://support.microsoft.com/ja-jp/help/436213.
 
 ---
